@@ -1,20 +1,35 @@
 {
-  "name": "sequelize-restore",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mugendi/sequelize-restore.git"
-  },
-  "bugs": {
-    "url": "https://github.com/mugendi/sequelize-restore/issues"
-  },
-  "homepage": "https://github.com/mugendi/sequelize-restore#readme",
-  "description": ""
+    "name": "sequelize-restore",
+    "version": "0.1.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "sequelize",
+        "database",
+        "backup",
+        "restore",
+        "hook",
+        "mariadb",
+        "postgres",
+        "sqlite",
+        "mysql",
+        "relational"
+    ],
+    "author": "Anthony Mugendi <ngurumugz@gmail.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mugendi/sequelize-restore.git"
+    },
+    "bugs": {
+        "url": "https://github.com/mugendi/sequelize-restore/issues"
+    },
+    "homepage": "https://github.com/mugendi/sequelize-restore#readme",
+    "description": "A simple module to watch for changes in your sequelize managed database & restore records whenever tables are recreated ",
+    "dependencies": {
+        "debug-symbols": "^1.0.2",
+        "fs-extra": "^11.1.1"
+    }
 }
